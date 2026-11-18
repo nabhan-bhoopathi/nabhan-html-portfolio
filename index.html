@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nabhan Aboobacker | Portfolio</title>
+    <style>
+/* Basic setup */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #222222;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 20px;
+}
+
+/* Header and navigation */
+.header {
+  border-bottom: 1px solid #dddddd;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  color: #1d4ed8;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  display: block;
+  padding: 8px;
+  color: #222222;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Introduction */
+.intro {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.role {
+  color: #1d4ed8;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #1e3a8a;
+}
+
+/* Sections */
+.grey {
+  background-color: #f5f7fa;
+}
+
+.section-heading {
+  color: #1d4ed8;
+  border-bottom: 2px solid #dddddd;
+  padding-bottom: 6px;
+}
+
+.project {
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin-bottom: 12px;
+}
+
+.project h3,
+.project p {
+  margin: 4px 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: #666666;
+  border-top: 1px solid #dddddd;
+  padding: 10px;
+}
+</style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="container nav">
+        <a href="#home" class="logo">NA.</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Introduction -->
+      <section id="home">
+        <div class="container intro">
+          <!-- To use your own photo, replace the src below with your photo file name, e.g. photo.jpg -->
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' fill='%23dbe4fb'/%3E%3Ctext x='100' y='118' font-size='64' font-family='Arial' text-anchor='middle' fill='%231d4ed8'%3ENA%3C/text%3E%3C/svg%3E" alt="Nabhan Aboobacker" class="photo" />
+          <h1>Nabhan Aboobacker</h1>
+          <p class="role">B.Tech CSE (AI) Student</p>
+          <p>[Add your one-line tagline here.]</p>
+          <p>
+            [Write 1-2 sentences about what you build and the tools you use.]
+          </p>
+          <a href="#projects" class="button">View Projects</a>
+          <a href="#contact" class="button">Contact Me</a>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section id="about" class="grey">
+        <div class="container">
+          <h2 class="section-heading">About Me</h2>
+          <p>
+            I&rsquo;m Nabhan, a B.Tech Computer Science (AI) student.
+            [Add a short intro about yourself.]
+          </p>
+          <p>
+            <strong>What interests me:</strong> [Your interests.]
+          </p>
+          <p>
+            <strong>What I&rsquo;m working toward:</strong> [Your goals.]
+          </p>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education">
+        <div class="container">
+          <h2 class="section-heading">Education</h2>
+          <ul>
+            <li>
+              <strong>B.Tech in CSE (AI)</strong> - Joy University
+              (in progress)
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="grey">
+        <div class="container">
+          <h2 class="section-heading">Skills</h2>
+          <ul>
+            <li><strong>Programming:</strong> Python, Java</li>
+            <li><strong>Machine Learning:</strong> [Your ML skills]</li>
+            <li><strong>Tools:</strong> [e.g. Git, GitHub, ...]</li>
+            <li><strong>Web:</strong> HTML, CSS [add more]</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <div class="container">
+          <h2 class="section-heading">Projects</h2>
+          <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>My portfolio site built with HTML and CSS.</p>
+          </div>
+          <div class="project">
+            <h3>MUHZIN ASSOCIATES Website</h3>
+            <p>A multi-page website for a corporate advisory firm in Kerala and the GCC, with service pages, team and testimonials, property listings, a consultation form and WhatsApp enquiry. <a href="https://muhzinassociates.com">muhzinassociates.com</a></p>
+          </div>
+          <div class="project">
+            <h3>[Project name]</h3>
+            <p>[One-line description of the project.]</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements -->
+      <section id="achievements" class="grey">
+        <div class="container">
+          <h2 class="section-heading">Achievements</h2>
+          <h3>Certifications</h3>
+          <ul>
+            <li>Java and Python Programming - 6-month course</li>
+          </ul>
+          <h3>Participation</h3>
+          <ul>
+            <li>[Event or hackathon]</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+          <h2 class="section-heading">Contact Details</h2>
+          <ul>
+            <li>Email: <a href="mailto:nabhannhn1234@gmail.com">nabhannhn1234@gmail.com</a></li>
+            <li>Phone: <a href="tel:+919544616161">+91 95446 16161</a></li>
+            <li>Location: Kerala, India</li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Nabhan Aboobacker.</p>
+    </footer>
+  </body>
+</html>
